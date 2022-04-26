@@ -10,4 +10,3 @@ def uppercase(str):
             text = i
         print("{:s}".format(text), end="")
     print("")
-            
