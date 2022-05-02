@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-from operator import le
-
-
 def replace_in_list(my_list, idx, element):
     if idx >= 0 and idx < len(my_list):
         my_list[idx] = element
