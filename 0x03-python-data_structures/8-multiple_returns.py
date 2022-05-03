@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-from ast import Return
-
-
 def multiple_returns(sentence):
     cnt = len(sentence)
     if cnt == 0:
