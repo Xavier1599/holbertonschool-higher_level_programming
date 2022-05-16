@@ -8,7 +8,7 @@ def safe_print_list(my_list=[], x=0):
     for j in range(x):
         try:
             print("{}".format(my_list[j]), end="")
-        except safe_print_list:
+        except:
             print("")
             return lenght
         cnt += 1
