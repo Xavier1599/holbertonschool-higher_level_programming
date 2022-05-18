@@ -7,7 +7,7 @@ class Square(object):
 
     def __init__(self, size=0):
         """initialize the square
-    
+
         size: the size of the square
         """
         if not isinstance(size, int):
