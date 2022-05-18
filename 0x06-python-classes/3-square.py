@@ -2,15 +2,12 @@
 """Defining the square"""
 
 
-from ctypes import sizeof
-
-
 class Square:
     """Represent a square"""
 
     def __init__(self, size=0):
         """Initialize the square
-    
+
         size: the size of the square
         """
         self.size = size
