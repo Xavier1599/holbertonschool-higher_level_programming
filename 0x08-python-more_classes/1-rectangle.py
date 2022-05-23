@@ -6,7 +6,7 @@ Rectangle: class that defines a rectangle
 
 class Rectangle(object):
     """Rectangle: defining the class"""
-    def __init__(self, width=0, heigth=0):
+    def __init__(self, width=0, height=0):
         """Initialie the rectangle
         
         Args:
@@ -14,7 +14,7 @@ class Rectangle(object):
                 heigth: the heigth of the rectangle
         """
         self.width = width
-        self.height = heigth
+        self.height = height
 
     @property
     def width(self):
@@ -30,14 +30,14 @@ class Rectangle(object):
         self.__heigth
 
     @property
-    def heigth(self):
+    def height(self):
         """set the heigth of the rectangle"""
         return self.__heigth
 
-    @heigth.setter
-    def heigth(self, value):
+    @height.setter
+    def height(self, value):
         if not isinstance(value, int):
-            raise TypeError("heigth must be an integer")
+            raise TypeError("height must be an integer")
         if value < 0:
-            raise ValueError("heigth must be >= 0")
-        self.__heigth = value
+            raise ValueError("height must be >= 0")
+        self.__height = value
