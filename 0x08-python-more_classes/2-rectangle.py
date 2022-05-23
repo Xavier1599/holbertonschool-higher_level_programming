@@ -4,9 +4,6 @@ Rectingle: defining the class and atributes of the class
 """
 
 
-from typing import Type
-
-
 class Rectangle:
     """represent the rectangle"""
     def __init__(self, width=0, height=0):
