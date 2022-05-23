@@ -27,7 +27,7 @@ class Rectangle(object):
             raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be >= 0")
-        self.__heigth
+        self.__width = value
 
     @property
     def height(self):
