@@ -6,6 +6,8 @@ Rectangle: defining its class and atributes
 
 class Rectangle:
     """represent the rectangle"""
+    number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         """initialize the rectsangle
 
@@ -13,6 +15,7 @@ class Rectangle:
             width: the width of the rectangle
             heigth: the heigth of the triangle
         """
+        type(self).number_of_instances += 1
         self.width = width
         self.height = height
 
