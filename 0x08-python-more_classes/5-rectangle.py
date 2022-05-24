@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""File name: 4-rectangle.py
+"""File name: 5-rectangle.py
 Rectangle: defining its class and atributes
 """
 
@@ -69,3 +69,7 @@ class Rectangle:
         rect = "Rectangle(" + str(self.__width)
         rect += ", " + str(self.__height) + ")"
         return (rect)
+
+    def __del__(self):
+        """print a meesege when rectangle deleted"""
+        print("Bye rectangle...")
