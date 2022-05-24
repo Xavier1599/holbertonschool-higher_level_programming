@@ -7,6 +7,7 @@ Rectangle: defining its class and atributes
 class Rectangle:
     """represent the rectangle"""
     number_of_instances = 0
+    print_symbol = "#"
 
     def __init__(self, width=0, height=0):
         """initialize the rectsangle
