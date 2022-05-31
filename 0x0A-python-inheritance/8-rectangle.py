@@ -13,7 +13,10 @@ class Rectangle(BaseGeometry):
     """
 
     def __init__(self, width, height):
-        """private atributes"""
+        """
+        private attributes width and height,
+        and validating if they are ints.
+        """
         self.integer_validator("width", width)
         self.__width = width
         self.integer_validator("height", height)
