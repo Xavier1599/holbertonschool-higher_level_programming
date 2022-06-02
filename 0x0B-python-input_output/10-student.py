@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """File name: 9-student.py"""
 
 
