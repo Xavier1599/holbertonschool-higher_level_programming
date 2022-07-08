@@ -6,5 +6,5 @@ ON g.id = s.genre_id
 
 INNER JOIN tv_show AS t
 ON t.id = s.show_id
-WHERE t.title = Dexter
+WHERE t.title = "Dexter"
 ORDER BY g.name;
